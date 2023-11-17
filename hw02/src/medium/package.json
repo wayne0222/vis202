@@ -1,0 +1,14 @@
+{
+  "name": "39c89e45cee23b62",
+  "main": "39c89e45cee23b62@17.js",
+  "version": "17.0.0",
+  "homepage": "https://observablehq.com/d/39c89e45cee23b62",
+  "author": {
+    "name": "Wayne's Workspace",
+    "url": "https://observablehq.com/@wayne2-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
