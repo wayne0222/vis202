@@ -1,0 +1,14 @@
+{
+  "name": "669d8c10e3703791",
+  "main": "669d8c10e3703791@37.js",
+  "version": "37.0.0",
+  "homepage": "https://observablehq.com/d/669d8c10e3703791",
+  "author": {
+    "name": "Wayne's Workspace",
+    "url": "https://observablehq.com/@wayne2-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
