@@ -78,13 +78,13 @@
     a3[0] = ['序號', '班級', '學號', '姓名', 'GitHub', '作業一', '作業二', '作業三', '作業四', '作業五', '作業六', '作業七', '作業八', '作業九', '作業十']
 
     const year = ["111", "112"];
-    const department = ["590", "598", "C52", "C53", "C71"];
+    const num = ["590", "598", "C52", "C53", "C71"];
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 
     for (var i = 1; i < a3.length; i++) {
         a3[i][0] = i;
-        var num = Math.floor(Math.random() * 5);
-        switch (num){
+        var n = Math.floor(Math.random() * 5);
+        switch (n){
             case 0:
                 a3[i][1] = '資工系';
                 break;
@@ -106,7 +106,7 @@
                 break;
         }
         randomYear = Math.floor(Math.random() * 2);
-        a3[i][2] = year[randomYear] + department[randomClass] + Math.floor(Math.random() * 999).toString().padStart(3, '0');
+        a3[i][2] = year[randomYear] + num[n] + Math.floor(Math.random() * 999).toString().padStart(3, '0');
         //a3[i][1] = '路人甲'; // 4E00-9FFF
         //a3[i][1] = String.fromCharCode(0x6771);
         // 隨機產生名字
