@@ -1,0 +1,14 @@
+{
+  "name": "ac40edc435c77fd6",
+  "main": "ac40edc435c77fd6@44.js",
+  "version": "44.0.0",
+  "homepage": "https://observablehq.com/d/ac40edc435c77fd6",
+  "author": {
+    "name": "Wayne's Workspace",
+    "url": "https://observablehq.com/@wayne2-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
