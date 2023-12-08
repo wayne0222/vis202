@@ -54,9 +54,10 @@ function loadjson() {
     })
     .catch(error => console.error('Error fetching or parsing JSON:', error));
 }
-console.log("1");
+
 // 初始加載 icon 位置
 loadjson();
-console.log("2");
+console.log("1");
 // 每秒更新一次位置
 setInterval(loadjson, 500);
+console.log("2");
