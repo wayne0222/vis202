@@ -1,6 +1,8 @@
 const icon = document.getElementById('icon');
 const jsonUrl = '../json/userLocationData.json';
+console.log("1");
 const traceContainer = document.getElementById('trace-container'); // 假設有一個元素用於容納移動痕跡
+console.log("2");
 let currentIndex = 0;
 let currentFloor = '1F'; // 新增 currentFloor 變數
 
