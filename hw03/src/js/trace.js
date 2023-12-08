@@ -1,8 +1,6 @@
 const icon = document.getElementById('icon');
 const jsonUrl = '../json/userLocationData.json';
-console.log("1");
 const traceContainer = document.getElementById('trace-container'); // 假設有一個元素用於容納移動痕跡
-console.log("2");
 let currentIndex = 0;
 let currentFloor = '1F'; // 新增 currentFloor 變數
 
@@ -56,9 +54,9 @@ function loadjson() {
     })
     .catch(error => console.error('Error fetching or parsing JSON:', error));
 }
-
+console.log("1");
 // 初始加載 icon 位置
 loadjson();
-
+console.log("2");
 // 每秒更新一次位置
 setInterval(loadjson, 500);
