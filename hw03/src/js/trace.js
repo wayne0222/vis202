@@ -31,6 +31,7 @@ function updateIconPosition(x, y) {
 }
 
 function loadjson() {
+  console.log("1");
   fetch(jsonUrl)
     .then(response => response.json())
     .then(data => {
@@ -57,7 +58,6 @@ function loadjson() {
 
 // 初始加載 icon 位置
 loadjson();
-console.log("1");
+
 // 每秒更新一次位置
-setInterval(loadjson, 500);
-console.log("2");
+setInterval(loadjson, 1000);
